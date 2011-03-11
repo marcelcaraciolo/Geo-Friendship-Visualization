@@ -106,14 +106,13 @@ def run_main(options):
     cmap =  get_cmap('jet')  if mode_colormap == 'all' else get_cmap('jet')
     dist_bins = logspace(1,log(max_distance)/log(10),255)
 
-    print dist_bins
     
     #Plot using the correct colormap
     for ((x1,y1),(x2,y2)),distance in sorted_matrix:
         for i in range(len(dist_bins)-1):
             if distance > dist_bins[i] and distance < dist_bins[i+1]:
                 break
-        p = rgb2hex(converter.to_rgb(cmap(i+255)))
+        p = rgb2hex(converter.to_rgb(cmap(255-i)))
         draw.line([(y1,x1),(y2,x2)], p )
     
     #Save the image.
