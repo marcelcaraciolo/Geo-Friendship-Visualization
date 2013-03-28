@@ -39,7 +39,7 @@ Notice that we only draw student connections, no other geographic information is
 
 Yes, you can use it for your own social network!
 
-To run it download the script ``geo_mapper.py``` . It requires the libraries: PIL, Matplotlib and Numpy.
+To run it download the script ``geo_mapper.py`` . It requires the libraries: ``PIL``, ``Matplotlib`` and ``Numpy``.
 
 The parameters for the script are::
 
