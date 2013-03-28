@@ -70,27 +70,27 @@ The parameters for the script are::
 	    run_main(options)
 
 
-The input-file must be a dict serialized on pickle file, which the elements are::
+The ``input-file`` must be a dict serialized on pickle file, which the elements are::
 
 	{ ((latO,longO),(latD,longD)): qtd, ...}
 
 	#(latO,longO) are the latitude and longitude of the origin location. Both are float values. 
 	#(latD,longD) ate the latitude and longitude of the destiny location. Both are float values.
-    #qtd: An integer that represents the number of connections between both coordinates (cities).
+	#qtd: An integer that represents the number of connections between both coordinates (cities).
 
-The size is the output image dimmensions. Ex: 600,600  
+The ``size`` is the output image dimmensions. Ex: 600,600  
 
-The output file is the destination for saving the image.
+The ``output-file`` is the destination for saving the image.
 
-The colormap used for plotting the lines. 
+The ``colormap`` used for plotting the lines. 
 
 Calling the script::
-    $ python geo_mapper.py -i  data.pk  -s 1600,1600  -o  output_map.jpg
+
+	$ python geo_mapper.py -i  data.pk  -s 1600,1600  -o  output_map.jpg
 
 
 The result will be the data.pk coordinates plotted on a image saved with the name ``output_map.jpg`` and
 dimmensions 1600x1600.
-
 
 ===========================
  Support, bugs & wish list
