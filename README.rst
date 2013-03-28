@@ -92,6 +92,18 @@ Calling the script::
 The result will be the data.pk coordinates plotted on a image saved with the name ``output_map.jpg`` and
 dimmensions 1600x1600.
 
+
+==========
+Gallery
+==========
+
+
+**Tuenti visualization social network by Andreas Kaltenbrunner**
+
+.. image:: http://2.bp.blogspot.com/_XcGJanX-TAY/TVHbIc97TjI/AAAAAAAAA9Y/alE3biMj9QE/s1600/spain_net50spainjet.png
+   :width: 6in
+
+
 ===========================
  Support, bugs & wish list
 ===========================
